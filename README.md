@@ -58,9 +58,9 @@
 ### 使用方式
 
 ```bash
-git clone https://github.com/hcxowe/vite-getStart
+git clone https://github.com/hcxowe/SST-Admin-template
 
-cd vite-getStart
+cd SST-Admin-template
 
 npm install
 
