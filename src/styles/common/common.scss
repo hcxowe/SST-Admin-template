@@ -1,0 +1,160 @@
+@import "./var.scss";
+
+#app {
+    font-family: var(--el-font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+    color: #2c3e50;
+    height: 100%;
+}
+
+.height-fit {
+    height: 100%;
+}
+
+.width-fit {
+    width: 100%;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+/* reset element-plus */
+
+// reset table 
+.el-table thead {
+    color: #606266;
+}
+
+.el-table th.el-table__cell {
+    --el-table-header-bg-color: #f8f8f9;
+    padding: 6px 0 5px;
+}
+
+.el-table th.el-table__cell + th.el-table__cell {
+    border-left: var(--el-table-border);
+}
+
+.el-table_2_column_4.el-table-column--selection.is-leaf.el-table__cell .cell,
+.el-table-column--selection .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// reset layout container
+.el-header {
+    --el-header-padding: 0;
+}
+
+.el-footer {
+    --el-footer-padding: 0;
+}
+
+.el-main {
+    --el-main-padding: 0;
+}
+
+.el-container,
+.el-main {
+    overflow: hidden;
+}
+
+
+// reset dialog
+.el-dialog__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 15px;
+    margin-right: 0;
+    border-bottom: 1px solid var(--el-border-color);
+}
+
+.el-dialog__title {
+    font-size: 14px;
+}
+
+.el-dialog__headerbtn {
+    position: static;
+
+    width: auto;
+    height: auto;
+}
+
+.el-dialog__footer {
+    padding: 10px 15px;
+    border-top: 1px solid var(--el-border-color);
+}
+
+.el-dialog__body {
+    padding: 0;
+}
+
+// reset select downlist
+.el-select-dropdown__item {
+    font-size: 12px;
+}
+
+// reset messagebox
+.el-message-box {
+    padding-bottom: 0;
+    width: auto;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.el-message-box__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 15px;
+    margin-right: 0;
+    border-bottom: 1px solid var(--el-border-color);
+}
+
+.el-message-box__title {
+    font-size: 14px;
+}
+
+.el-message-box__headerbtn {
+    position: static;
+
+    width: auto;
+    height: auto;
+}
+
+.el-message-box__content {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.el-message-box__btns {
+    flex-flow: row-reverse;
+    justify-content: flex-start;
+    padding: 10px 15px;
+    border-top: 1px solid var(--el-border-color);
+}
+
+.el-message-box__btns button:nth-child(2) {
+    margin-right: 10px;
+}
+
+.el-menu-item {
+    font-size: 14px;
+}
